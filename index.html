@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learn api - integration and CRUD</title>
+  </head>
+  <body>
+    <h1>Learning API Integration and CRUD Implementation</h1>
+    <div class="new-post-form-container">
+      <form id="createPostForm">
+        <input type="text" id="newPostTitle" placeholder="Enter title" required/>
+        <textarea id="newPostBody" placeholder="Enter body" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+    <div class="post-container" id="postContainer">
+      <!-- <div class="post-card"> -->
+      <!-- <p class="post-id"></p>
+        <h2 class="post-title" id="postTitle"></h2>
+        <p class="post-body" id="postBody"></p>
+        <div class="post-btn-group" id="postBtnGroup">
+          <button
+            class="btn btn-primary"
+            id="editBtn"
+            onclick="editPost(`${postId}`)"
+          >
+            Edit
+          </button>
+          <button
+            class="btn btn-danger"
+            id="deleteBtn"
+            onclick="deletePost(`${postId}`)"
+          >
+            Delet
+          </button>
+        </div> -->
+      <!-- </div> -->
+    </div>
+    <script src="./api.js"></script>
+  </body>
+</html>
